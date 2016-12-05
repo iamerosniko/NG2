@@ -16,7 +16,7 @@ import { FriendService } from 'app/friend.service';
   h2 { 
     text-align: center;
   }
-  `]
+  `],
   template: `
   <h2>Hello from the {{componentName}}!</h2>
   <div *ngFor="#f of friends">
